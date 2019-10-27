@@ -1,0 +1,41 @@
+body{
+  background-image: url(img/back.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+header{
+  padding-top: 20px;
+}
+.Leo {
+  font-size: 82px;
+  font-family: "MrsEavesItalic";
+  color: rgba(255, 255, 255, 0.678);
+  font-style: italic;
+}
+.out{
+  outline: 1px solid red;
+}
+nav a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.678);
+  font-size: 25px;
+}
+nav a:hover{
+  border: 1px solid rgba(255, 255, 255, 0.678);
+  color: rgba(255, 255, 255, 0.678);
+}
+.head-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px 0 50px 0;
+}
+.head-text h2{
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.678);
+  font-weight: bold;
+}
+.head-text span{
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.678);
+}
