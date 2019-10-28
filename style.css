@@ -1,41 +1,100 @@
+*{
+  font-family: "MrsEavesItalic";
+  color: rgba(255, 255, 255, 0.678);
+  margin: 0;
+}
 body{
   background-image: url(img/back.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  padding-top: 30px;
 }
 header{
-  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
 }
-.Leo {
+.logo{
   font-size: 82px;
-  font-family: "MrsEavesItalic";
-  color: rgba(255, 255, 255, 0.678);
-  font-style: italic;
+  text-align: center;
+  margin: 0 60px;
 }
-.out{
-  outline: 1px solid red;
+.flex{
+  display:flex;
+  justify-content: space-around;
+  width: 70%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 nav a{
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.678);
-  font-size: 25px;
+  font-size: 30px;
+  height: 30px;
+  padding: 3px 15px 10px 15px;
 }
 nav a:hover{
   border: 1px solid rgba(255, 255, 255, 0.678);
-  color: rgba(255, 255, 255, 0.678);
+  border-radius: 20px;
 }
-.head-text{
+.container_1{
+  width: 90%;
+  margin: 50px auto;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 100px 0 50px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
-.head-text h2{
+.cofee{
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+.con1_text{
+  width: 45%;
+  margin: auto;
+  padding: 20px;
+}
+@media screen and (max-width: 850px) {
+	.container_1 {
+    justify-content:row;
+	}
+  .cofee{
+    width: 100%;
+    justify-content: center;
+  }
+  .con1_text{
+    width: 100%;
+  }
+}
+.con1_text h2{
   font-size: 50px;
   color: rgba(255, 255, 255, 0.678);
   font-weight: bold;
 }
-.head-text span{
+.con1_text span{
   font-size: 40px;
   color: rgba(255, 255, 255, 0.678);
+}
+.input{
+  margin: 15px 0;
+}
+input{
+  padding: 10px;
+  font-size: 25px;
+  background-color: #2A6F4F;
+  opacity: 0.8;
+  border: 0px solid red;
+  border: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+
+
+
+.out{
+  outline: 1px solid red;
 }
